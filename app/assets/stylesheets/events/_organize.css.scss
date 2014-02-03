@@ -35,7 +35,7 @@
   margin-right: 10px;
   display: inline-block;
 
-  @media (max-width: $phone-width) {
+  @media (max-width: $screen-xs-max) {
     margin-bottom: 10px;
     width: 100%;
   }
@@ -86,7 +86,7 @@
   .section-arranger-link-text {
     margin-left: 15px;
 
-    @media (max-width: $phone-width) {
+    @media (max-width: $screen-xs-max) {
       margin: 0;
       font-size: 24px;
       text-align: center;
@@ -103,7 +103,7 @@
   border: 1px solid rgb(205, 205, 228);
   padding: 7px;
 
-  @media (max-width: $phone-width) {
+  @media (max-width: $screen-xs-max) {
     box-sizing: border-box;
     text-align: center;
     margin-bottom: 10px;
